@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Rien que moi</title>
+        <style>
+            html
+            {
+                scroll-behavior: smooth;
+                text-align: center;
+                background: floralwhite
+            }
+            body
+            {
+                padding: 0px;
+                margin: 0px;
+            }
+            a
+            {
+                color: brown;
+                text-decoration: none;
+                display: inline-block;
+            }
+        
+            h1, strong
+            {
+                color: brown;
+            }
+            
+            nav
+            {
+                text-align: right;
+                margin: 2px;
+            }
+            nav a
+            {
+                color: black;
+                font-size: 16px;
+                font-weight: bold; 
+                padding: 5px;
+            }
+            header
+            {
+                background: url("me.jpg") no-repeat top right;
+                background-size: cover; 
+                margin: 0px;
+                padding: 10px;
+                height: 175px;
+                text-align: left;
+            }
+            header h1 
+            {
+                color: black;
+                font-size: 50px;
+            }
+            header q
+            {
+                font-style: italic;
+                color: coral;
+               
+            }
+    
+            
+            fieldset
+            {
+                width: 21%;
+                height: 310px;
+                border-radius: 10px;
+                margin: 0px;
+                text-align: left;
+                float: left;
+            }
+
+            legend
+            {
+                font-weight: bold; 
+                font-size: 20px;
+                color: brown;
+            }
+            span
+            {
+                font-weight: bold;
+            }
+            
+            article
+            {
+                border-radius: 10px;
+                border: 1px burlywood solid;
+                box-shadow: 4px 4px 6px black; 
+                background-color: burlywood;
+                width: 50%;
+                
+                margin-top: 3px;
+                margin-right: 5px;
+                padding: 4px;
+                height: 310px;
+                margin-bottom: 30px;
+                float: left;
+            }
+            .me
+            {
+                width: 24%;
+                height: 350px;
+                border-radius: 10px;
+                margin-top: 5px;
+                object-fit: cover;
+            }
+    
+            .pre
+            {
+                height: 70%;
+                margin-top: 10%;
+                object-fit: cover;
+                float: left;
+                border-radius: 10px;
+                width: 80%;
+            }
+
+            figure
+            {
+                width: 23.5%;
+                height: 300px;
+                float: left;
+                border-radius: 10px;
+                border: 1px black solid;
+                box-shadow: 2px 2px 5px black; 
+                margin: 5px;
+            }
+          figcaption
+            {
+                display: inline-block;
+                margin:  5px;
+            }
+            div
+            {
+                width: 23.5%;
+                height: 300px;
+                float: left;
+                margin-top: 10px;
+                border-radius: 10px;
+                border: 1px black solid;
+                box-shadow: 2px 2px 5px black; 
+                margin: 5px;
+            }
+            div h1 
+            {
+                font-size: 20px;
+            }
+
+
+            footer
+            {
+                background-color: sienna;
+                color: white;
+                height: 175px;
+                margin: 0px;
+                padding: 10px;
+                margin-top: 30%;
+            }
+            
+            footer p
+            {
+                color: black;
+                font-size: 12px;
+                margin-top: 60px;
+            }
+            
+    @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+/* Pour les petits ecrans */
+  @media screen and (max-width: 950px)
+  {
+
+    fieldset, article, figure, div, .me
+        {
+            width: 90%;
+            margin-left: 4%;
+        } 
+        header
+        {
+            height: 240px;
+        }
+    footer 
+  {
+    margin-top: 225%;
+  }
+  }
+        </style>
+
+    </head>
+    <nav>
+        <a href="#acc">Accueil</a>
+        <a href="#pref">Preferences</a>
+        <a href="#con">Contacts</a>
+        
+    </nav>
+    <body>
+        <header id="acc">
+            <h1>Chance KIM</h1>
+            <q>Wellcome upon my website!</q>
+            
+       
+        </header>
+        <fieldset>
+            <legend>A propos de moi</legend>
+            <ul>
+                <li><span>Nom: </span>KIMWIMBA</li>
+                <li><span>Post-nom: </span>KIFWAMBA</li>
+                <li><span>Prenom: </span>Chancelline</li>
+                <li><span>Né à: </span>LUBUMBASHI</li>
+                <li><span>Le: </span><date>20/01/2002</date></li>
+                <li><span>Nationalité: </span>Congolaise</li>
+                <li><span>Adresse: </span>N°.3, AV.Major NGANDU, Golf Plateau</li>
+                <li><span>Ville: </span>LUBUMBASHI</li>
+                <li><span>Téléphone: </span>+24397 604 16 16</li>
+                <li><span>Religion: </span>Chrétienne</li>
+            </ul>
+        </fieldset>
+        <article>
+            <h1>Bienvenue a tous!</h1>
+            <p>Salut tout le monde ! Moi c’est <strong>Chancelline Kim</strong> ; Je vis en R.D.C.
+                et c’est un immense plaisir pour moi de vous accueillir sur mon
+                site web.</p>
+                
+              <p>Alors ; une fois de plus, je vous souhaite la bienvenue et vous
+                  invite à jeter un coup d’œil sur les differnts blocs de ce site qui <em>contiennient
+                       quelques brèves information sur ma présentation.</em></p>
+                  
+                <p>Il est a noter que je suis assez passionnee par la musique,
+                    et j'ai assez des competences en Photoshop et Illustrator; 
+                    Donc n'hesitez pas a me contacter en cas de besoin:-) </p>
+                <br />
+                
+        </article>
+        <img src="me.jpg" alt="moi" class="me">
+        <figure>
+       <img src="1.jpeg" alt="animal" class="pre" id="pref">
+       <figcaption>Animal preferé</figcaption>
+       </figure>
+       <figure>
+       <img src="2.jpeg" alt="fruit" class="pre">
+       <figcaption>Fruit preferé</figcaption>
+       </figure>
+       <figure>
+       <img src="3.jpeg" alt="repas" class="pre">
+       <figcaption>Repas preferé</figcaption>
+       </figure>
+        <div id="con">
+            <h1>Contacts</h1>
+            <ul>
+            <li>Sur Whatsapp, ecrivez-moi au : <span class="num">+24397 604 16 16</span> </li>
+            <li>Laissez-moi un mail en cliquant <a href="mailto:20kk254@esisalama.org">ici</a>.</li>
+            </ul>
+        </div>
+
+    
+        <footer>
+        
+            <p>Chance KIM's website    -    2022</p>
+        </footer>
+    </body>
+</html>
